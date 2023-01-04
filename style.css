@@ -114,3 +114,54 @@ header {
     /* Dark 03 */
     color: #757575;
 }
+#about-me{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-card {
+    width: 1140px;
+    height: 550px;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+
+.about-me-txt {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    /* identical to box height */
+    padding: 131px 486px 0 485px;
+    /* Dark 01 */
+    color: #181818;
+    margin: 0;
+}
+
+.about-me-details{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* or 167% */
+    padding: 30px 156px 0 157px;
+    /* Dark 03 */
+    color: #757575;
+    margin: 0;
+    text-align: center;
+}
+.orgnizers{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 30px;
+}
+.orgnizers p{
+    font-weight: bolder;
+    color: #474747;
+}
+.orgnizers span{
+    font-weight: normal;
+    color: #757575;
+}
