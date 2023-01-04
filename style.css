@@ -1,0 +1,116 @@
+* {
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+.primary-bg {
+    background-color: #FD6E0A;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.nav-btn {
+    width: 150px;
+    height: 64px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control {
+    border: none;
+    min-height: 25px;
+}
+
+/* nav start */
+li {
+    list-style: none;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+li>a {
+    color: #474747;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 230px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    font-size: 45px;
+}
+
+header {
+    background-image: url("images/header_bg.png"), url("images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, 5%;
+    background-color: #FFF8F3;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 230px;
+    padding-right: 25px;
+}
+
+.hero-details {
+    max-width: 585px;
+}
+
+.hi-there {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 51px;
+    /* Dark 02 */
+    color: #474747;
+}
+
+.name-dev {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 96px;
+    /* identical to box height */
+    /* Dark 01 */
+    color: #181818;
+
+}
+
+.hero p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    /* Dark 03 */
+    color: #757575;
+}
