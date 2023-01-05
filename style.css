@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    background: #ffffff;
 }
 
 .primary-color {
@@ -114,12 +115,14 @@ header {
     /* Dark 03 */
     color: #757575;
 }
-#about-me{
+
+#about-me {
     margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .red-card {
     width: 1140px;
     height: 550px;
@@ -139,7 +142,7 @@ header {
     margin: 0;
 }
 
-.about-me-details{
+.about-me-details {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -151,17 +154,94 @@ header {
     margin: 0;
     text-align: center;
 }
-.orgnizers{
+
+.orgnizers {
     display: flex;
     justify-content: space-around;
     text-align: center;
     padding-top: 30px;
 }
-.orgnizers p{
+
+.orgnizers p {
     font-weight: bolder;
     color: #474747;
 }
-.orgnizers span{
+
+.orgnizers span {
     font-weight: normal;
     color: #757575;
+}
+
+/* What I Do */
+#whatido {
+    text-align: center;
+}
+
+.what-i-do-head {
+    max-width: 910px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.what-i-do-head>P {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    /* identical to box height */
+    text-align: center;
+    /* Dark 01 */
+    color: #181818;
+}
+
+.what-i-do-head .details {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    text-align: center;
+    /* Dark 03 */
+    color: #757575;
+}
+
+.what-i-do-lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-i-do-card {
+    width: 267px;
+    height: 377px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 0 20px;
+}
+
+.what-i-do-card-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    /* Dark 01 */
+    color: #181818;
+}
+
+.what-i-do-card-body {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    /* Dark 03 */
+    color: #757575;
+    text-align: justify;
 }
